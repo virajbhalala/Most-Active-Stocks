@@ -1,0 +1,728 @@
+.navmenu {border-left:1px solid #797560; border-top:1px solid #ffffff; border-right:1px solid #ffffff; 
+
+background-color:#e6daad;vertical-align:middle;height:38px;width:97px;padding:0px 0px;margin:0px 0px;}
+
+body, input, select, p, .arialTen, .p10, .b12, .pb11, .navmenu, .menuhead, .menuitem, .menuitemsel, .text, .textEF, .textb, .textbEF, 
+
+.text9, .textb9, .textb9gray, .text10, .textb10, .textb10gray, .text11, .text11EF, .textb11, .textb11EF, .text11gray, .link, .linkEF, .linkb, .linkbEF, 
+
+.link11, .link11EF, .linkb11, .linkb11EF, .whiteLink, .linkb11white, .unvisited, .link11unvisited, .num, .pnum, .nnum, .numEF, .pnumEF, 
+
+.nnumEF, .num11, .pnum11, .nnum11, .numEF11, .pnumEF11, .nnumEF11, .sechead, .secheadflat, .intrcharthead, .time, .time11, .timeb11, 
+
+.time11fr, .modhead, .modheadgray, .colheadnum, .colheadtext, .colheadctr, .colheadnumEF, .colheadtextEF, .tbsubhead, .pagehead, 
+
+.currentpagehead, .colhead, .coloredcol, .darkpumpkinhead, .boldGreyNine {font-family: Arial, Helvetica, Verdana, sans-serif;}
+hr {margin:0px 0px; padding:0px 0px;border:0px;height:1px;color:#CCC;background-color:#CCC;}
+body, input, select, p, .arialTen, .p10, .b12, .pb11, .navmenu, .menuhead, .text, .textEF, .textb, .text9, .textb9, .text10, .textb10, 
+
+.text11, .text11EF, .textb11, .textb11EF, .num, .numEF, .num11, .num11EF, .colheadnum, .colheadtext, .colheadctr, .colheadnumEF, 
+
+.colheadtextEF, .tbsubhead, .sechead, .secheadflat, .intrcharthead, .colhead {color:#000;}
+.currentpagehead {color:#F93;}
+.modhead, .darkpumpkinhead {color:#CC6633;}
+.time, .time11, .timeb11, .time11fr, .textb9gray, .textb10gray, .text11gray, .modheadgray, .boldGreyNine {color:#666;}
+.text, .textEF, .textb, .textbEF, .text9, .textb9, .textb9gray, .text10, .textb10, .textb10gray, .text11, .text11EF, .textb11, .textb11EF, .text11gray, 
+
+.link, .linkb, .linkEF, .linkbEF, .link11, .link11EF, .linkb11EF, .textEF, .colheadtext, .colheadtextEF {text-align:left;}
+.num, .pnum, .nnum, .numEF, .pnumEF, .nnumEF, .num11, .pnum11, .nnum11, .num11EF, .pnum11EF, .nnum11EF, .time, .time11, .timeb11, .time11fr, 
+
+.colheadnum {text-align:right;}
+.navmenu, .colhead, .colheadctr  {text-align:center;}
+.text9, .textb9, .textb9gray, .boldGreyNine {font-size:9px;}
+
+input, select, .pb11, .text11, .textb11, .text11EF, .text11gray, .link11, .link11:active, .link11:visited, .link11unvisited, 
+
+.link11unvisited:active, .link11unvisited:visited, .whiteLink, .whiteLink:active, .whiteLink:visited, .time11, .timeb11, .time11fr, 
+
+.colheadnum, .colheadtext, .colheadctr, .colheadnumEF, .colheadtextEF, .num11, .pnum11, .nnum11, .num11EF, .pnum11EF, .nnum11EF, .link11, 
+
+.link11EF {font-size:11px;}
+body, p, .b12, .navmenu, .menuhead, .menuitem, .menuitemsel, .text, .textb, .textEF, .textbEF, .link, .linkEF, .linkb, .linkbEF, .unvisited, 
+
+.num, .pnum, .nnum, .numEF, .pnumEF, .nnumEF, .modhead, .modheadgray, .sechead, .secheadflat, .intrcharthead, .tbsubhead, .colhead 
+
+{font-size: 12px;}
+.ataglancehead {font-size: 13px;}
+.pagehead, .currentpagehead, .darkpumpkinhead {font-size:16px;}
+.text10, .textb10, .textb10gray, .p10, .arialTen  {font-size:10px;}
+.b12, .pb11, .menuhead, .sechead, .secheadflat, .intrcharthead, .ataglancehead, .modhead, .modheadgray, .colheadnum, .colheadtext, 
+
+.colheadctr, .linkb11white, .colheadnumEF, .colheadtextEF, .textb9gray, .textb10gray, .pagehead, .currentpagehead, .textb, .textb11, .textbEF, .textb11EF, 
+
+.linkb, .linkbEF, .linkb11, .linkb11EF, .timeb11, .tbsubhead, .colhead, .darkpumpkinhead, .boldGreyNine {font-weight:bold;}
+.link:link, .linkEF:link, .linkb:link, .linkbEF:link, .link11:link, .link11EF:link, .linkb11:link, .linkb11EF:link, .link11unvisited:link, 
+
+.link11unvisited:visited, .unvisited:link, .unvisited:visited, .pagehead:link, .pagehead:visited {color: #0253b7;}
+.whiteLink:link, .whiteLink:visited, .linkb11white:link, .linkb11white:visited {color:#FFF;}
+.link:visited, .linkb:visited, .linkEF:visited, .linkbEF:visited, .link11:visited, .linkb11:visited, .linkb11EF:visited {color: #066;}
+.link:active, .link:link, .link:visited, .linkb:active, .linkb:link, .linkb:visited, .linkEF:active, .linkEF:link, .linkEF:visited, 
+
+.linkbEF:active, .linkbEF:link, .linkbEF:visited, .link11:active, .link11:link, .link11:visited, .linkb11:active, .linkb11:link, 
+
+.linkb11:visited, .linkb11EF:active, .linkb11EF:link, .linkb11EF:visited, .link11unvisited:active, .link11unvisited:link, 
+
+.link11unvisited:visited, .unvisited:active, .unvisited:link, .unvisited:visited, .link11unvisited:visited, .whiteLink:active, 
+
+.whiteLink:link, .whiteLink:visited, .pagehead:link, .pagehead:visited {text-decoration: none;}
+.link:hover, .linkb:hover, .linkEF:hover, .linkbEF:hover, .link11:hover, .link11EF:hover, .linkb11:hover, .linkb11EF:hover, 
+
+.link11unvisited:hover, .unvisited:hover, .whiteLink:hover, .pagehead:hover {color: #F93; text-decoration: underline;}
+.pnum, .pnumEF, .pnum11, .pnum11EF {color:#093;}
+.nnum, .nnumEF, .nnum11, .nnum11EF {color:#F00;}
+.textEF, .textbEF, .text11EF, .textb11EF, .linkEF, .link11EF, .linkbEF, .linkb11EF, .numEF, .pnumEF, .nnumEF, .num11EF, .pnum11EF, 
+
+.nnum11EF, .colheadnumEF, .colheadtextEF, .altRowBg {background-color:#F0EDE0;}
+.sechead { height:18px; background:url(http://s.wsj.net/img/mdc_section_title_bg.gif) repeat-x top; padding-left:5px; border:1px solid white;}
+.secheadflat { height:18px; background-color:#E5DFCA; padding-left:5px; border:1px solid white;}
+.secheadborder { border-top:1px solid #AD9B5A; border-left:1px solid #AD9B5A; border-right:1px solid #AD9B5A;}
+.secborder {border-bottom:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;}
+.collapsedsec { border:1px solid #AD9B5A;}
+.intrcharthead { height:18px; background-color:#B0C9E3; padding-left:5px; border-top:1px solid white; border-left:1px solid white; 
+
+border-right:1px solid white;}
+.intrchartheadborder { border-top:1px solid #B0C9E3; border-left:1px solid #B0C9E3; border-right:1px solid #B0C9E3;}
+.intrchartborder {border-bottom:1px solid #B0C9E3;border-left:1px solid #B0C9E3;border-right:1px solid #B0C9E3;}
+.ataglancehead { color:white;background-color:#AD9B5A;padding-left:5px; border-top:1px solid white; border-left:1px solid white; 
+
+border-right:1px solid white;}
+.ataglanceheadborder { border-top:1px solid #AD9B5A; border-left:1px solid #AD9B5A; border-right:1px solid #AD9B5A;}
+.time11fr {float:right;}
+.b1pxCCC {border:1px solid #CCC;}
+.btop1pxCDE {border-top:1px solid #CBD3E0;}
+.btop2pxCDE {border-top:2px solid #CBD3E0;}
+.bbot1pxCDE {border-bottom:1px solid #CBD3E0;}
+.bbot2pxCDE {border-bottom:2px solid #CBD3E0;}
+.padlt5px {padding-left:5px;}
+.padrt5px {padding-right:5px;}
+.padtop5px {padding-top:5px;}
+.padbot5px {padding-bottom:5px;}
+.padbot10px {padding-bottom:10px;}
+.padtop10px {padding-top:10px;}
+.padltrt5px {padding:0px 5px;}
+.padtpbt5px {padding:5px 0px;}
+.pad5px {padding:5px 5px;}
+.pad10px {padding:10px 10px;}
+.padlt25px {padding-left:25px;}
+.padtop15px {padding-top:15px;}
+.padbot15px {padding-bottom:15px;}
+.padrt15px {padding-right:15px;}
+.marleft5px {margin-left:5px;}
+.martop10px {margin-top:10px;}
+.module {background-color:white; border-top:2px solid #000; border-left:1px solid #CBD3E0; border-bottom:1px solid #CBD3E0; border-right:1px 
+
+solid #CBD3E0; padding:7px 10px 10px 10px; margin-bottom:10px; }
+.bgF0EDE0 {background-color:#F0EDE0;}
+.bgEEF2F6 {background-color:#EEF2F6;}
+.highlight {font-weight:bold;background:url(http://s.wsj.net/img/mdc_update_notification.gif) no-repeat 0px 0px;padding-left:20px; }
+.coloredcol {background-color:#F9F5E8;}
+.bullet {background:url(http://s.wsj.net/img/mdc_black_round_bullet.gif) no-repeat 0px 7px; padding-left:10px;}
+.pznpromo 
+  {
+    border:1px solid #d3cdad;
+    padding:0px 10px;
+    padding-top:5px;
+  }
+span.chartToolTip { }
+
+span.chartToolTip {
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+span.chartToolTipBox {
+  visibility:hidden;
+  position:absolute;
+  }
+
+span.chartToolTipBoxVisible {
+  padding:0px;
+  }
+
+span.chartToolTipBoxVisible .toolTipHeader {
+  background-color:#789bce;
+  border-bottom:1px solid #000000;
+  padding:10px 0px;
+  text-align:center;
+}
+
+span.chartToolTipBoxVisible .toolTipHeader .symbolName {
+  color:#ffffff;
+  font-family:Arial Black;
+  font-size:14px;
+  text-transform:uppercase;
+}
+
+span.chartToolTipBoxVisible .toolTipBody {
+  background-color:#eff3f7;
+  font-size:11px;
+  padding:10px 9px 0px 9px;
+}
+
+span.chartToolTipBoxVisible .toolTipBody .quoteTimestamp {
+  color:#999999;
+  text-align:left;
+  padding-bottom:7px;
+}
+
+span.chartToolTipBoxVisible .toolTipBody .toolTipChartBox {
+  border-bottom:1px solid #789bce;
+  padding-bottom:6px;
+}
+
+span.chartToolTipBoxVisible .toolTipBody .quoteRange {
+  border-bottom:1px solid #789bce;
+  color:#000000;
+  margin:0px 0px;
+  padding:4px 0px;
+}
+
+span.chartToolTipBoxVisible .toolTipBody .quoteRange .selectedTime {
+  color:#000000;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+span.chartToolTipBoxVisible .toolTipBody .iacharting {
+  margin:5px 0px;
+  padding:0px 0px;
+}
+
+span.chartToolTipBoxVisible .toolTipSponsor {
+  background-color:#ffffff;
+  padding:5px 10px;
+}
+
+span.chartToolTipBoxVisible .toolTipSponsor .sponsoredBy {
+  font-size:10px;
+  color:#999999;
+}
+
+
+span.mdcBigText	
+	{	
+		font-family: Arial,Times New Roman,Times, serif;
+		font-size: 14px;
+	}
+
+.mdcTable{
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+	border-top:2px solid #B49D49;
+}
+.mdcNarrowM{
+	width:645px;
+}
+
+.mdcWideM{
+	width:825px;
+}
+
+.mdcWide{
+	width:970px;
+}
+
+.mdcNarrow{
+	width:465px;
+}
+
+.mdcImage{
+
+border:1px solid #B49D49;
+	padding-top:12px; 
+	padding-bottom:12px;
+}
+.tableDesc{
+ 	font-family: Arial;
+        font-size: 12px; 
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+	border-top:1px solid #CCCCCC;
+	padding-top:12px; 
+	padding-bottom:12px;
+	padding-left:10px; 
+                padding-right:10px;
+                margin:0px;
+}
+
+.comboHeader{
+ 	font-family: Arial;
+                font-size: 16px; 
+	border:1px solid #B49D49;
+	padding-top:12px; 
+	padding-bottom:13px;
+	padding-left:10px; 
+}
+
+table.mdcTable td{
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	padding:5px 10px 4px 10px;
+	
+}
+/*table.mdcTable td.colhead {
+	border-right:0px solid #CCCCCC;    	
+}*/
+.pnum   
+        {
+                font-family: Arial;
+                font-size: 12px; 
+                color: #009933; 
+                text-align: right;
+        }
+.nnum   
+        {       
+                font-family: Arial;
+                font-size: 12px; 
+                color: #FF0000; 
+                text-align:right;
+        }
+.num    
+        {       
+                font-family: Arial;
+                font-size: 12px; 
+                color: #000000; 
+                text-align:right;
+        }
+.linkb  
+        {       
+                font-family: Arial;
+                font-size: 12px; 
+                color: #0253b7; 
+                font-weight: bold;
+                text-align:left;
+                text-decoration:none;
+        }
+.text   
+        {       
+                font-family: Arial;
+                font-size: 12px; 
+                color: #000000; 
+                text-align:left;
+        }
+.linkb11 
+        {       
+                font-family: Arial;
+                font-size: 11px; 
+                color: #0253B7;
+                font-weight: bold;
+                text-decoration:none;
+        }
+.tbsubhead 
+        {       
+              font-family: Arial;
+              font-size: 14px;
+              font-weight: bold;
+	padding-top:5px;
+	padding-bottom:4px;
+	padding-left:10px;
+	border-top:1px solid #B49D49;
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+        }
+.tbsubheadnb 
+        {       
+              font-family: Arial;
+              font-size: 14px;
+              font-weight: bold;
+        }
+.footer{
+	font-family: Arial;
+	padding-top:10px;
+	font-size: 11px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+                text-align:justify;
+	border-bottom:0px solid #B49D49;
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+        }
+.moreFootnotes{
+        font-family: Arial;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+        font-size: 11px;
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+}
+.footerSource{
+	font-family: Arial;
+	padding-top:10px;
+	font-size: 11px;
+        /*color:#0253b7;*/
+	font-color: black;
+	padding-bottom:10px;
+	padding-left:10px;
+	border-bottom:1px solid #B49D49;
+	border-right:1px solid #B49D49;
+	border-left:1px solid #B49D49;
+        }
+
+.tbltime
+        {       
+        font-family:Arial;
+        font-size: 11px;
+        color: #666666;
+	font-weight: bold;
+	padding-top:5px;
+	padding-bottom:4px;
+	padding-left:10px;
+	border-left:1px solid #B49D49;
+	border-right:1px solid #B49D49;
+        }
+.colhead, table.mdcTable td.colhead 
+        {       
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        text-align:center;
+	border-bottom:1px solid #CCCCCC;
+	border-right:0px;
+	border-top:0px;
+        }
+
+.mdcTitle
+   {       
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+        text-align:center;
+	border-bottom:1px solid #CCCCCC;
+	border-right:0px;
+	border-top:0px;
+        }
+
+.superhead, td.superhead
+        {       
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        text-align:center;
+        border-bottom:0px;
+        border-right:0px;
+        }
+.grouphead
+        {       
+        border-bottom:1px solid #000000;
+        padding-left:10px;
+        padding-right:10px;
+        }
+.darkpumpkinhead, .mdcTblName
+        {
+        font-family: Arial;
+        font-size: 16px; 
+        color: #CC6633;
+        font-weight: bold;
+        padding-top:10px;
+	padding-bottom:8px;
+        }
+.darkpumpkinheadnb
+        {
+        font-family: Arial;
+        font-size: 16px; 
+        color: #CC6633;
+        font-weight: bold;
+	}        
+
+.mdcSubtbl
+        {
+        font-family: Arial;
+        font-size: 14px; 
+        color: #CC6633;
+        font-weight: bold;
+        text-transform:uppercase;
+        padding-top:10px;
+	padding-bottom:8px;
+
+        }
+
+.mdcHead
+        {
+              border-top: 1px solid #B49D49;
+              border-right:1px solid #B49D49;
+              padding-top:10px;
+	padding-bottom:8px;
+	padding-left:10px;
+	border-left:1px solid #B49D49;
+
+        }  
+        
+.dotChart{
+              margin:0px;
+              padding:1px 0px 0px 0px;
+}
+        
+.greenBar {
+    background-color: #009933;
+    height: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.redBar {
+    background-color: #FF0000;
+    height: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+   
+}
+
+
+/*   Added new class for Combo Pages */
+
+
+.mdcSecLnks
+        {
+        font-family: Arial;
+        font-size: 11px; 
+
+        text-align:left;
+        font-weight:bold;
+        padding-left:10px;
+        padding-bottom:8px;
+        border-left:1px solid #B49D49;
+        border-bottom:1px solid #CCCCCC;
+        border-right:1px solid #B49D49;
+
+        }
+
+.mdcReturnTop
+        {
+              font-family: Arial;
+              font-size: 8px;
+
+              border-top: 1px solid #CCCCCC;
+              padding-top:23px;
+              padding-bottom:16px;
+              padding-left:10px;
+              text-align:center;
+              border-left:1px solid #B49D49;
+              border-right:1px solid #B49D49;
+              border-bottom:1px solid #B49D49;
+
+
+        }  
+
+.mdcContainer{
+	/*width:970px;*/
+                border-right:1px solid #B49D49;
+}
+
+
+.mdcImgTxtTitle{
+              font-family: Arial;
+              font-size: 14px;
+              font-weight: bold;
+              font-color:#000000;
+              padding-top:20px;
+              padding-left:10px;
+              vertical-align:top;
+             
+}
+.mdcImgTxt{
+              font-family: Arial;
+              font-size: 12px;
+              color:#666666;
+              padding-left:10px;
+}
+.newsmod{font-family:arial; font-weight:bold;color:#CF6835;font-size:12px;}
+#red
+{
+ color: #FF0033;
+}
+ 
+#green
+{
+ color: #008800;
+}
+ .centeredImage
+    {
+     text-align:center;
+    display:block;
+    }
+
+
+.navmenupage {font-family: Arial, Helvetica, Verdana, sans-serif;background:url(http://s.wsj.net/img/mdc_nav_menu_title.gif) no-repeat top 
+
+left;background-color:#044593;vertical-align:middle;border-bottom:1px solid 
+
+#e7f0fb;padding-left:16px;padding-right:5px;font-size:11px;color:#fff;font-weight:bold;white-space:nowrap;text-decoration: none;}
+.navmenusec  {font-family: Arial, Helvetica, Verdana, sans-serif;background:url(http://s.wsj.net/img/mdc_nav_menu_subtitle.gif) no-repeat top 
+
+left;background-color:#5B91D2;vertical-align:middle;padding-left:16px;padding-right:5px;font-size:11px;color:#fff;font-weight:bold;white-spa
+
+ce:nowrap;text-decoration: none;}
+.navmenuitem {font-family: Arial, Helvetica, Verdana, sans-serif;background:url(http://s.wsj.net/img/mdc_black_round_bullet.gif) no-repeat 5px 
+
+50%;vertical-align:middle;padding-left:13px;padding-right:5px;font-size:11px;color:#0253B7;white-space:nowrap;text-decoration: none;}
+.navmenuitemover {font-family: Arial, Helvetica, Verdana, sans-serif;background:url(http://s.wsj.net/img/mdc_black_round_bullet.gif) no-repeat 5px 
+
+50%;vertical-align:middle;padding-left:13px;padding-right:5px;font-size:11px;color:#f93;white-space:nowrap;text-decoration: underline;}
+.navmenuitemsel {font-family: Arial, Helvetica, Verdana, sans-serif;background:url(http://s.wsj.net/img/mdc_black_round_bullet.gif) no-repeat 5px 
+
+50%;vertical-align:middle;padding-left:13px;padding-right:5px;font-size:11px;color:#f93;font-weight:bold;white-space:nowrap;text-decoration: 
+
+none;}
+
+
+.calendar {
+  border: 1px solid #336699;
+  margin: 5px 5px 14px 0px;
+  background: #efefef;
+  width: 180px;
+}
+
+.wp-calendar {
+  font-family:Arial;
+  font-size: 11px;
+  empty-cells: show;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wp-calendar thead th {
+  background: #369;
+  color: white;
+  width: 14%;
+  text-align: center;
+}
+
+.wp-calendar a, .wp-calendar a:hover {
+  text-decoration: none;
+}
+
+.wp-calendar td.calendar-caption {
+  background: #e2ebf5;
+  padding: 0;
+  text-align: center;
+}
+
+.wp-calendar table.calendar-title {
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+}
+
+.wp-calendar td.calendar-title-next, 
+.wp-calendar td.calendar-title-prev {
+  background: #336699;
+  color: white;
+  width: 12px;
+  text-align: center;
+  border: 1px;
+}
+
+.wp-calendar table.calendar-title a {
+  color: white;
+}
+
+.wp-calendar table.calendar-title a:hover {
+  color: #FC3;
+  text-decoration: none;
+}
+
+.wp-calendar td {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.wp-calendar td .spacer {
+  background-color: #e2ebf5;
+  width: 15%;
+}
+
+.wp-calendar td.pad {
+  background-color: #efefef;
+}
+
+.mdc-history-widget {
+  background: url('http://s.wsj.net/img/MDC_history_widgetBG.gif') no-repeat top left;
+  width: 300px;
+  height: 60px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-right: 14px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+}
+
+.mdc-history-widget span.title {
+  color: #CF6632;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mdc-history-widget span.pipe {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mdc-history-widget span.whatsthis {
+  color: #0253B7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: regular;
+}
+
+.subscriber-msg {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.table{
+list-style:none outside none;
+font-size:12px;
+font-family:arial;
+}
+ul.table,.table li,.table li h3,.table li h4{
+display:block;
+margin:0;
+padding:0;
+}
+ul.table{
+width:460px;
+}
+.table .heading,.table .more{
+border-bottom:2px solid #ccc;
+}
+.table .td{
+width:220px;
+float:left;
+border-bottom:1px solid #ccc;
+}
+.table .td.withmargin{
+margin-right:20px;
+}
+.table .last{
+border-width:0px;
+}
+.table .more{
+clear:both;
+border-top:1px solid #ccc;
+}
+div.centerGraph div.module table{margin:0 auto;}
+
+td.atclose_top {color:gray;font-weight:normal;}
+#marketsNews{
+border:1px solid #cbd3e0;
+padding:9px 9px 6px 9px;
+}
+#marketsNews #moreLink{
+font-size:0.9em;
+}
+.listTable, .listTable ul, .listTable ul li {padding:0;margin:0;}
+.listTable ul {list-style-image:url('/img/mdc_black_round_bullet.gif');width:50%;float:left;}
+.listTable ul li {margin-left:10px;}
+.listTable .no-bullet{list-style-image:none;list-style-type:none;}
+.listTable .no-bullet li{margin-left:0px;margin-bottom:6px;}
