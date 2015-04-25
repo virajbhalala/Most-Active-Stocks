@@ -20,9 +20,10 @@ def get_elms_for_atr_val(tag,atr,val):
 		print(tr_lst[tr])
 		textList=get_text(tr_lst[tr])
 		lst.append(textList);
-		#print(len(textList)) length is 8
-	#print(lst[0]) <- heading
-	#print(lst[1])  <-other than heading
+		#print(len(textList))==8
+	#print(lst[0])
+	#print(lst[1])
+	#print(len(tr_lst))
 	return lst;
 
 	
@@ -46,7 +47,9 @@ def get_text(e):
 
 # replace whitespace chars
 def replace_white_space(old):
+	#print(old)
 	new=""
+	#new=old[2:]
 	new=old.replace("\n","")
 	return new
    	#p = re.compile(r'\s+')
@@ -95,6 +98,7 @@ def main():
  	global dom
    	dom = parse(xhtml_fn)
    	lst = extract_values(dom)
+	#print(lst)
 	for i in lst:
 		print(i[0] + "\t" + i[2]+ "\t" + i[4]+ "\t" + i[5]+ "\t" + i[6]+ "\t" + i[7])
 		
