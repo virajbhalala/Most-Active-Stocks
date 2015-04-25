@@ -29,11 +29,8 @@ def get_elms_for_atr_val(tag,atr,val):
 # get all text recursively to the bottom
 def get_text(e):
 	lst=[];
-	#print(str(e.nodeType) + "\t"+e)
 	if (e.nodeType==3):
-		#print ("3" +"\t"+e.data)
 		lst.append(e.data);
-		
 		lst[0]=replace_white_space(lst[0])
 #		print(lst)
 		return lst; 
